@@ -14,7 +14,7 @@ ROCOv2 random instances are given with the next figure:
 1) Download test images from a website: https://zenodo.org/records/8333645 (For inference you only need test_images.zip)
 2) Place images inside a folder data/ROCOv2/test (All preprocessing for data is already done and placed inside merged_dataset_test.csv)
 3) In file config.py setup paths to your local folder for test images and captions
-4) From root run inference files that are inside folder inference/ROCOv2 (Without CLIP, with OpenAI CLIP, with trained CLIP - for this you will need a model that need to be placed inside folder model_checkpoints and has an extension .pt - Model can be get by contacting me)
+4) From root run inference files that are inside folder inference/ROCOv2 (Without CLIP, with OpenAI CLIP, with trained CLIP - for this you will need a model that need to be placed inside folder model_checkpoints and has an extension .pt - Contact me for model)
 5) Each file will display metrics (Silhouette score, CH index, DB index), visualize clusters in 2D, visualize groups, display KMeans elbow and Silhouette graph
 
 Due to stochasticity of the algorithm there may be slight deviations from the results. Obtained results are:
